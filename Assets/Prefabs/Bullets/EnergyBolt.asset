@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2553b2f3fc4afbc469a4b25e34d0d009, type: 3}
+  m_Name: EnergyBolt
+  m_EditorClassIdentifier: 
+  damage: 5
+  range: 25
+  spread: 0
+  shotsPerBullet: 1
+  shotsLeft: 0
+  damageType: 3
+  explosionDamage: 0
+  explosionRange: 0
+  explosionForce: 0
+  explosionEffect: {fileID: 0}
+  projectile: {fileID: 7735519534799223661, guid: 6c3da5490624d5a41846d8ce5a98660a, type: 3}
+  forwardForce: 100
+  upwardForce: 0
+  torque: 1
+  bounciness: 0
+  useGravity: 0
+  maxLifetime: 5
+  minCollisions: 0
+  maxCollisions: 1
+  explodeOnTouch: 1

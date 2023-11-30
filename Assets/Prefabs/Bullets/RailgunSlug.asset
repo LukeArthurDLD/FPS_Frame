@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96787c6981bb907408fe2229b838f859, type: 3}
+  m_Name: RailgunSlug
+  m_EditorClassIdentifier: 
+  damage: 50
+  range: 100
+  spread: 0
+  shotsPerBullet: 1
+  shotsLeft: 1
+  damageType: 4
+  explosionDamage: 75
+  explosionRange: 3
+  explosionForce: 1000
+  explosionEffect: {fileID: 3027101180706505215, guid: 2bb493bb3794e514eab1c169a5b1e503, type: 3}
+  tracer: {fileID: 1347336070825099311, guid: 110ae014ec4dc484798afd083d6a0b5f, type: 3}
+  impactEffect: {fileID: 0}
